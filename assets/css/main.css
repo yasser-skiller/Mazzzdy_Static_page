@@ -1,0 +1,102 @@
+
+
+
+:root {
+  --BodyColor:#fcfcfc;
+  --DarkGray:#414141;
+  --LightGray:#808080;
+  --Gray:#f0f0f0;
+  --Purple:#44215D;
+  --PurpleSec:#610060;
+  --LightPurple:#EAE7ED;
+  --Yellow:#f4ebcd;
+  --YellowColor:#ffbf00;
+  --GrayTHr:#727272;
+  --GrayFour:#727272;
+  --Pink:#D20653;
+  --DarkPink:#711a3c;
+  --LightPink:#f6d8e3;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: var(--BodyColor);
+  transition: .75s ease-in-out;
+  font-size: 16px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+#__nuxt{
+  overflow-x: hidden !important;
+}
+
+a{
+  text-decoration-line: none !important;
+}
+
+.Arrow {
+  background-image: url('./../icon/arrow.png');
+  background-position: 98% 12px;
+  background-repeat: no-repeat;
+}
+
+.cursor_pointer{
+  cursor: pointer;
+}
+
+.bg_Gray{
+  background-color: var(--DarkGray);
+}
+.bg_Purple{
+  background-color: var(--Purple);
+}
+.bg_LightPurple{
+  background-color: var(--LightPurple);
+}
+.bg_GraySce{
+  background-color: var(--Gray);
+}
+.bg_LightPink{
+  background-color: var(--LightPink);
+}
+.bg_Pink{
+  background-color: var(--Pink);
+}
+.bg_Pink:hover{
+  background-color: var(--DarkPink);
+}
+.bg_Yellow{
+  background-color: var(--Yellow);
+}
+.text_Yellow{
+  color: var(--YellowColor);
+}
+.text_Pink{
+  color: var(--Pink);
+}
+.text_Purple{
+  color: var(--Purple);
+}
+.text_PurpleSec{
+  color: var(--PurpleSec);
+}
+.text_LightGray{
+  color: var(--LightGray);
+}
+.text_GrayFour{
+  color: var(--GrayFour);
+}
+.text_GrayTHr{
+  color: var(--GrayTHr);
+}
+.f_22{
+  font-size: 22px;
+}
+.f_18{
+  font-size: 18px;
+}
+.font-weight-bolder{
+  font-weight: 900 !important;
+}

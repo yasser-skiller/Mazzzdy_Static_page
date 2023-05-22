@@ -1,0 +1,64 @@
+{
+
+    "Main_Category" : [
+      {
+        "id":1 ,
+        "name" : "Car, Motor & Accessories",
+        "Sub_Category" :
+        [
+          {"id":1 , "name" : "Car one"},
+          {"id":2 , "name" : "Car two"},
+          {"id":3 , "name" : "Car three"}
+
+        ]
+    },
+      {
+        "id":2 ,
+         "name" : "Devices",
+        "Sub_Category" :
+          [
+            {"id":1 , "name" : "Devices one"},
+            {"id":2 , "name" : "Devices two"},
+            {"id":3 , "name" : "Devices three"}
+
+          ]
+      },
+      {
+        "id":3 ,
+        "name" : "Laptops",
+        "Sub_Category" :
+        [
+          {"id":1 , "name" : "Laptops one"},
+          {"id":2 , "name" : "Laptops two"},
+          {"id":3 , "name" : "Laptops three"}
+
+        ]
+      }
+
+    ],
+    "Process_Type" : [
+      {"id":1 , "name" : "Process_Type one"},
+      {"id":2 , "name" : "Process_Type two"},
+      {"id":3 , "name" : "Process_Type three"},
+      {"id":4 , "name" : "other"}
+
+    ],
+    "Brand" :[
+      {"id":1 , "name" : "Brand one"},
+      {"id":2 , "name" : "Brand two"},
+      {"id":3 , "name" : "Brand three"},
+      {"id":4 , "name" : "Brand four"}
+    ],
+    "Model" :[
+      {"id":1 , "name" : "Model one"},
+      {"id":2 , "name" : "Model two"},
+      {"id":3 , "name" : "Model three"},
+      {"id":4 , "name" : "Model four"}
+    ],
+    "Type" :[
+      {"id":1 , "name" : "Type one"},
+      {"id":2 , "name" : "Type two"},
+      {"id":3 , "name" : "Type three"},
+      {"id":4 , "name" : "Type four"}
+    ]
+}
