@@ -1,0 +1,1 @@
+# Mazzzdy_Static_page
